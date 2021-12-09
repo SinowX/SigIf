@@ -1,0 +1,8 @@
+clang++
+%cpp -std=c++14
+%h -x
+%h c++-header
+%h %hpp --include=Global.h
+-Iinc
+-I./src/include
+-DMACRO
