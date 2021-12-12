@@ -39,3 +39,38 @@
 // 	send info to corresponding workloop by append to a workloop queue
 // so next loop before event wait, workloop could check it up and drop 			it and return Warning to corresponding client 
 // main thread init Communication Protocal Wrapper
+//
+
+#include <sys/epoll.h>
+#include"config_manager.h"
+#include"tcp_wrap.h"
+
+#define ConfMgr ConfigManager::GetInstance()
+
+
+int main()
+{
+	
+	ConfigManager::GetInstance().ReadConfig("path to config");
+	Tcp_Wrap acceptor;
+	acceptor.SetAddr(ConfMgr.GetListenIP(), ConfMgr.GetListenPort());
+	int EpFd=epoll_create(1024);
+	struct epoll_event ev;
+	memset(&ev, 0, sizeof(ev));
+	ev.events=EPOLLIN;
+	ev.data.fd=acceptor.GetFd();
+	ev.data.ptr=static_cast<void*>(&acceptor);
+	epoll_ctl(EpFd, EPOLL_CTL_ADD, acceptor.GetFd(), &ev);
+
+	struct epoll_event activeEvs[100];
+
+	int active_num = epoll_wait(EpFd,activeEvs,100,30);
+
+	for(int i=0; i<active_num; i++)
+	{
+		int fd=activeEvs[i].data.fd;
+		int event = activeEvs[i].events;
+		if(events )
+	}
+	return 0;
+}

@@ -9,4 +9,11 @@ enum RETURN{
 };
 
 
+/* typedef */ 
+/* enum SIGMACHINETYPE{ */
+/* 	XINGZHI=0; */
+/* 	HAIKANG= */
+/* }; */
+
+
 #endif

@@ -18,7 +18,7 @@
 
 /* #include<sys/wait.h> */
 
-#include"validate_inline.h""
+#include"validate_inline.h"
 
 class Tcp_Wrap
 {
@@ -40,6 +40,8 @@ class Tcp_Wrap
 		/* int Send(const char* data, const std::size_t len); */
 		// set ip and port, ip should be v4 and terminate with '\0'
 		int SetAddr(const char* ip, const int port);
+
+
 		// connect status check
 		/* bool IsConnected()const {return connected_;} */
 	private:

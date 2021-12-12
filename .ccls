@@ -1,5 +1,5 @@
 clang++
-%cpp -std=c++14
+%cpp -std=c++17
 %h -x
 %h c++-header
 %h %hpp --include=Global.h
