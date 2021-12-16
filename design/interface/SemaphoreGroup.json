@@ -1,0 +1,21 @@
+{
+	"meta":{
+		"type":"SemaphoreGroup",
+		"action":"response",
+		"ipv4":""
+	},
+	"data":{
+		"group":[
+			{
+				"group_number":23,
+				"control_type":54,
+				"control_number":65,
+				"flash":64,
+				"brightness":56,
+				"location_x":4532,
+				"location_y":3542,
+				"timer_number":23
+			}
+		]
+	}
+}

@@ -6,21 +6,21 @@
 
 // create an Acceptor, an IOReceiver, 3 Worker, (num of SigMechines) HBeatKeeper (each type one HBeatKeeper)
 // then pause (later we may add dynamic manager threads functionalities)
-void* Leader(void *arg);
+void Leader();
 
 // no epoll
 // accept blocking mode
-void* Acceptor(void* arg);
+void Acceptor();
 
 // Type: tcp receiver, raw_udp receiver
 // epoll receive from 
-void* IOReceiver(void *arg);
+void IOReceiver();
 
 
 // general worker , serve all type of SigMechines and Clients
 // Get msg from a task queue which shared by multi worker and one IOReceiver
 // Write back clients Request or active Warnings, Errors
-void* Worker(void *arg);
+void Worker();
 
 
 // Type: raw_udp keeper, snmp keeper
@@ -28,6 +28,6 @@ void* Worker(void *arg);
 // snmp keeper send and receive heartbeat because of the net-snmp api features. judge if disconnected on its own thread
 // one HBeatKeeper act as only one type of HBeatKeeper
 // SigMachines all use udp or snmp, so HBeatKeeper should be create by Leader
-void* HBeatKeeper(void *arg);
+void HBKeeper();
 
 #endif

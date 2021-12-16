@@ -1,0 +1,14 @@
+{
+	"meta":{
+		"type":"Failure"
+	},
+	"data":{
+		"failure":[
+			{
+				"type":23,
+				"timestamp":45421232,
+				"content":3433212
+			}
+		]
+	}
+}

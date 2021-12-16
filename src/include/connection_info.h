@@ -2,6 +2,9 @@
 #define CONNECTION_INFO_H
 
 #include <utility>
+/* #include <vector> */
+#include <string>
+
 
 enum ConnectionType
 {
@@ -24,6 +27,7 @@ typedef struct ConnectionInfo
 	int port;
 	int fd;
 	int status;
+	std::string buffer;
 }ConnectionInfo;
 
 typedef std::pair<const char*, ConnectionInfo*> Pair;

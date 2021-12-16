@@ -1,0 +1,18 @@
+{
+	"meta":{
+		"type":"response",
+		"action":"TimingScheme",
+		"ipv4":""
+	},
+	"data":{
+		"scheme":[
+			{
+				"time_id":43,
+				"phase":54,
+				"time_len":53,
+				"mode":32,
+				"option":54
+			}
+		]
+	}
+}

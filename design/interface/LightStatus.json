@@ -1,0 +1,23 @@
+{
+	"meta":{
+		"action":"response",
+		"type":"LightStatus",
+		"ipv4":""
+	},
+	"data":{
+		"light_group":[
+			{
+				"status":0 // off
+			},
+			{
+				"status":1 // red
+			},
+			{
+				"status":2 // yellow
+			}, 
+			{
+				"status":3 // green
+			}
+		]
+	}
+}

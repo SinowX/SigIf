@@ -1,0 +1,13 @@
+{
+	"meta":{
+		"type":"PhaseSequenceTable"
+	},
+	"data":{
+		"phasesequence":[
+			{
+				"table_number":1,
+				"loop_number":12
+			}
+		]
+	}
+}

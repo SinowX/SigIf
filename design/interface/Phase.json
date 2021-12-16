@@ -1,0 +1,36 @@
+{
+	"meta":{
+		"type":"Phase",
+		"ipv4":"",
+		"action":"response"
+	},
+	"data":{
+		"status":[
+			{
+				"phase_id":43,
+				"pedastrain_pass":65,
+				"pedastrain_clear":54,
+				"min_green":23,
+				"lag_green":21,
+				"max_green_1":36,
+				"max_green_2":76,
+				"yellow_transition":23,
+				"red_clear":65,
+				"protection":87,
+				"inc_init":54,
+				"inc_max":76,
+				"dec_previous_time":32,
+				"dec_previous_traffic":87,
+				"dec_time":32,
+				"dec_rate":76,
+				"min_interval":65,
+				"dynamic_max":43,
+				"dynamic_step":99,
+				"initial_para":33,
+				"option":44,
+				"loop_id":11,
+				"cocurrency_phase":23
+			}
+		]
+	}
+}

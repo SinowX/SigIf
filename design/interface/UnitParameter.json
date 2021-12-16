@@ -1,0 +1,21 @@
+{
+	"meta":{
+		"type":"UnitParameter"
+	},
+	"data":{
+			"boot_yellow":1,
+			"boot_red":0,
+			"gps_sync_time":30,
+			"dec_time":34,
+			"speed_factor":312,
+			"communication_overtime":23,
+			"flash_frequence":34,
+			"cross_street_time_lag":23,
+			"cross_reverse_street_time_lag":43,
+			"transition_cycle":43,
+			"data_flow_collect_interval":12,
+			"data_flow_interval_unit":32,
+			"min_red":43,
+			"pedastrain_auto_clear":1
+	}
+}

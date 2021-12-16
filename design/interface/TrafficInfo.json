@@ -1,0 +1,29 @@
+{
+	"meta":{
+		"action":"response",
+		"type":"TrafficInfo",
+		"ipv4":"172.10.2.13"
+	},
+	"data":{
+		"detector":[
+			{
+				"detector_id": 1,
+				"detect_interval": 30,
+				"flow_data": 60,
+				"occupation": 80
+			},
+			{
+				"detector_id": 2,
+				"detect_interval": 30,
+				"flow_data": 60,
+				"occupation": 80
+			},
+			{
+				"detector_id": 3,
+				"detect_interval": 30,
+				"flow_data": 60,
+				"occupation": 80
+			}
+		]
+	}
+}

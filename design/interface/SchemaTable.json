@@ -1,0 +1,16 @@
+{
+	"meta":{
+		"type":"SchemaTable"
+	},
+	"SchemaTable":{
+		"schema":[
+			{
+				"id":31,
+				"cycle_length":431,
+				"phase_difference":23,
+				"green_sig_rate_table_id":432,
+				"phase_sequence_id":32
+			}
+		]
+	}
+}

@@ -1,0 +1,27 @@
+{
+	"meta":{
+		"type":"PriorityConfig"
+	},
+	"data":{
+		"config":[
+			{
+				"id":1,
+				"control_interface":32,
+				"link":54,
+				"delay":23,
+				"min_existence":56,
+				"min_green":56,
+				"motor_linger":32,
+				"pedastrain_linger":12,
+				"pass_time":32,
+				"min_interval":3,
+				"max_continue":32,
+				"track_phase":21,
+				"motor_linger_phase":21,
+				"pedastrain_linger_phase":23,
+				"exit_phase":12,
+				"priority_status":32
+			}
+		]
+	}
+}

@@ -1,0 +1,9 @@
+{
+	"meta":{
+		"type":"ActionTable" // query query_res setting setting_res
+	},
+	"data":{
+		"action_id":45,
+		"plan_id":12
+	}
+}

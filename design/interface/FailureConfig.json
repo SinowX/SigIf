@@ -1,0 +1,15 @@
+{
+	"meta":{
+		"type":"FailureConfig"
+	},
+	"data":{
+		"config":[
+			{
+				"id":12,
+				"mode":32,
+				"operation":23,
+				"operation_value":34
+			}
+		]
+	}
+}

@@ -1,0 +1,25 @@
+{
+	"meta":{
+		"type":"Detector"
+	},
+	"data":{
+		"content":[
+			{
+				"id":23,
+				"option":54,
+				"open_phase":31,
+				"close_phase":54,
+				"delay_time":56,
+				"delay":76,
+				"queue_limit":12,
+				"no_response":78,
+				"max_exsit":23,
+				"error_count":54,
+				"falure_time":23,
+				"warning":23,
+				"warning_log":32,
+				"reset":45
+			}
+		]
+	}
+}

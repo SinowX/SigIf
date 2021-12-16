@@ -1,0 +1,14 @@
+{
+	"meta":{
+		"type":"WorkMode"
+	},
+	"data":{
+		"constant_cycle":1,
+		"reaction":0,
+		"mannual":1,
+		"off":0,
+		"yellow_flash":0,
+		"phase_lock":1,
+		"certain_phase":0
+	}
+}

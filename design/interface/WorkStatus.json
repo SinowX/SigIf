@@ -1,0 +1,15 @@
+{
+	"meta":{
+		"action":"response",
+		"type":"WorkStatus",
+		"ipv4":"172.10.2.13"
+	},
+	"data":
+		{
+			"is_auto": 1, 
+			"workmode": 12,
+			"plan_number": 42,
+			"scheme":32,
+			"green_signal_number":32
+		}
+}

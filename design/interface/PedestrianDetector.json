@@ -1,0 +1,17 @@
+{
+	"meta":{
+		"type":"PedestrianDetector"
+	},
+	"data":{
+		"content":[
+			{
+				"detector_id":1,
+				"trigger_phase":3,
+				"no_response":1,
+				"max_trigger_time":34,
+				"error_count":32,
+				"warning":21
+			}
+		]
+	}
+}

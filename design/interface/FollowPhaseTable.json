@@ -1,0 +1,19 @@
+{
+	"meta":{
+		"type":"FollowPhaseTable"
+	},
+	"data":{
+		"table":[
+			{
+				"id":1,
+				"type":32,
+				"father_phase":53,
+				"correct_phase":12,
+				"green_time":32,
+				"yellow_time":12,
+				"red_time":34,
+				"green_flash":21
+			}
+		]
+	}
+}

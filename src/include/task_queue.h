@@ -2,6 +2,8 @@
 #define TASK_QUEUE_H
 
 #include "connection_info.h"
+#include <memory>
+#include <string>
 
 enum TASKTYPE
 {
@@ -12,10 +14,12 @@ enum TASKTYPE
 
 typedef struct TaskInfo
 {
-	ConnectionInfo *conn;
+	std::shared_ptr<ConnectionInfo>conn;
 	int type; // TASKTYPE
-	char* buffer;
-	int buffer_len;
+	/* std::shared_ptr<std::string> buffer; */
+	std::string buffer;
+	/* char* buffer; */
+	/* int buffer_len; */
 }TaskInfo;
 
 
@@ -31,8 +35,8 @@ class TaskQ
 			static TaskQ instance_;
 			return instance_;
 		}
-		int Push(const TaskInfo* task);
-		TaskInfo& Get();
+		int Push(std::shared_ptr<TaskInfo> task);
+		std::shared_ptr<TaskInfo> Pop();
 		int Size()const;
 	private:
 		TaskQ(){};

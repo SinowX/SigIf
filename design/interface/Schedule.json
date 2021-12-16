@@ -1,0 +1,16 @@
+{
+	"meta":{
+		"type":"Schedule"
+	},
+	"data":{
+		"plan":[
+			{
+				"plan_id":1,
+				"month_data":43,
+				"week_data":53,
+				"day_data":343,
+				"time_schedule_number":43
+			}
+		]
+	}
+}

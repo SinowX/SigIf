@@ -1,0 +1,17 @@
+{
+	"meta":{
+		"type":"TimeTable"
+	},
+	"data":{
+		"table":[
+			{
+				"time_table_id":12,
+				"time_segment_id":54,
+				"time_segment_begin_hour":332,
+				"time_segment_begin_minu":23,
+				"action_id":32,
+				"failure_plan_id":123
+			}
+		]
+	}
+}

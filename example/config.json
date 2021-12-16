@@ -1,0 +1,20 @@
+{
+	"Server":{
+		"Host": "127.0.0.1",
+		"Port": 6000,
+		"WorkerThreadNumber": 1,
+		"IOReaderThreadNumber": 1
+	},
+	"Machine":[
+		{
+			"MachineType":"XINGZHI",
+			"Id":1,
+			"IpAddr":"172.10.43.10"
+		},
+		{
+			"MachineType":"XINGZHI",
+			"Id":2,
+			"IpAddr":"172.10.43.11"
+		}
+	]
+}
